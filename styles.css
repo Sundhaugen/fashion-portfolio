@@ -1,0 +1,85 @@
+body {background-color: #96A093;}
+
+.center-column {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.center-box {
+  padding-top: 60px;
+  position: relative;
+  display: inline-block;
+}
+
+
+.responsive {
+  display: block;
+  width: 100%;
+  max-width: 1500px;
+  height: auto;
+}
+
+#opening-picture {
+  border-radius: 4px;
+  border: 1px solid #000000;
+
+}
+
+#scroll-text {
+  text-align: center;
+  color: #443D3A;
+  font-size:1.5vw;
+  opacity: 0.2;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.title-text-top {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  font-size:12vw;
+  transform: translate( -50%, -50% );
+  color: #BB9777;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 4px;
+}
+
+.title-text-bottom {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size:12vw;
+  transform: translate( -50%, -50% );
+  color: #BB9777;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.sub-text {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  font-size:6vw;
+  transform: translate( -50%, -50% );
+  color: #BB9777;
+  white-space: nowrap;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#scroll-arrow {
+  text-align: center;
+  color: #443D3A;
+  font-size:1.5vw;
+  opacity: 0.9;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
